@@ -1,11 +1,15 @@
 {
-  "name": "ckeditor5-custom-build",
+  "name": "@abayo-luc/ckeditor5-custom-build",
   "author": "CKSource",
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
   "version": "0.0.1",
   "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
+  "private": false,
   "main": "./build/ckeditor.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abayo-luc/Ckeditor5-custom-build.git"
+  },
   "devDependencies": {
     "@ckeditor/ckeditor5-basic-styles": "^35.3.2",
     "@ckeditor/ckeditor5-block-quote": "^35.3.2",
